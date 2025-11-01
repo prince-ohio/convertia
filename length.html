@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Length Converter</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Length Converter</h1>
+
+    <form method="POST" action="/length">
+      <input type="number" name="value" placeholder="Enter value" required>
+
+      <select name="from">
+        <option>millimeter</option>
+        <option>centimeter</option>
+        <option>meter</option>
+        <option>kilometer</option>
+        <option>inch</option>
+        <option>foot</option>
+        <option>yard</option>
+        <option>mile</option>
+      </select>
+
+      <select name="to">
+        <option>millimeter</option>
+        <option>centimeter</option>
+        <option>meter</option>
+        <option>kilometer</option>
+        <option>inch</option>
+        <option>foot</option>
+        <option>yard</option>
+        <option>mile</option>
+      </select>
+
+      <button type="submit">Convert</button>
+    </form>
+
+    <nav>
+      <a href="/">Home</a>
+      <a href="/weight.html">Weight</a>
+      <a href="/temperature.html">Temperature</a>
+    </nav>
+  </div>
+</body>
+</html>
